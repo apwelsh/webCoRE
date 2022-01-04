@@ -3699,8 +3699,8 @@ Map getChildCommands(){
 	take				: [ (sN): "Take a picture",																					],
 	unlock				: [ (sN): "Unlock",		(sI): 'unlock-alt',							(sA): "lock",				(sV): "unlocked",					],
 	unmute				: [ (sN): "Unmute",		(sI): 'volume-up',								(sA): "mute",				(sV): "unmuted",					],
-	volumeDown			: [ (sN): "Raise volume",																					],
-	volumeUp			: [ (sN): "Lower volume",																					],
+	volumeDown			: [ (sN): "Lower volume",																					],
+	volumeUp			: [ (sN): "Raise volume",																					],
 
 // these are device virtual commands
 	doubleTap			: [ (sN): "Double Tap",			(sD): "Double tap button {0}",			(sA): "doubleTapped",			(sP):[[(sN): "Button #", (sT): sINT]]	],
